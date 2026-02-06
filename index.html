@@ -15,8 +15,8 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            color: #1a202c;
-            background: #ffffff;
+            color: #2d3748;
+            background: #fafbfc;
         }
 
         .nav {
@@ -48,7 +48,7 @@
         }
 
         .nav a:hover {
-            color: #3182ce;
+            color: #7d9aaa;
         }
 
         .container {
@@ -59,8 +59,9 @@
 
         .hero {
             padding: 4rem 0 3rem;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e1e4e8;
+            color: #2d3748;
             text-align: center;
         }
 
@@ -87,13 +88,13 @@
         }
 
         .confidentiality-notice {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
+            background: #f8f9fa;
+            border-left: 4px solid #adb5bd;
             padding: 1rem 1.5rem;
             margin: 2rem 0;
             border-radius: 4px;
             font-size: 0.9rem;
-            color: #856404;
+            color: #495057;
         }
 
         .confidentiality-notice strong {
@@ -109,12 +110,11 @@
         }
 
         .stat-card {
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(10px);
+            background: white;
             border-radius: 8px;
             padding: 2rem;
             text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid #e1e4e8;
         }
 
         .stat-number {
@@ -122,11 +122,12 @@
             font-weight: 700;
             display: block;
             margin-bottom: 0.5rem;
+            color: #6b7280;
         }
 
         .stat-label {
             font-size: 0.9rem;
-            opacity: 0.9;
+            color: #6b7280;
         }
 
         section {
@@ -164,14 +165,14 @@
 
         .nexus-intro {
             background: #f7fafc;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #8b9aad;
             padding: 2rem;
             margin: 2rem 0;
             border-radius: 4px;
         }
 
         .nexus-intro h3 {
-            color: #667eea;
+            color: #8b9aad;
             margin-bottom: 1rem;
         }
 
@@ -190,7 +191,7 @@
         }
 
         .nexus-feature strong {
-            color: #667eea;
+            color: #8b9aad;
             display: block;
             margin-bottom: 0.5rem;
         }
@@ -211,7 +212,7 @@
 
         .method-card .step-number {
             display: inline-block;
-            background: #667eea;
+            background: #8b9aad;
             color: white;
             width: 40px;
             height: 40px;
@@ -243,13 +244,13 @@
         }
 
         .segment-card.validated {
-            border-color: #48bb78;
-            background: linear-gradient(135deg, #f0fff4 0%, #ffffff 100%);
+            border-color: #9db8a5;
+            background: #f8faf9;
         }
 
         .segment-card.invalidated {
-            border-color: #f56565;
-            background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
+            border-color: #c9a09a;
+            background: #faf8f8;
         }
 
         .segment-header {
@@ -268,12 +269,12 @@
         }
 
         .segment-status.validated {
-            background: #48bb78;
+            background: #9db8a5;
             color: white;
         }
 
         .segment-status.invalidated {
-            background: #f56565;
+            background: #c9a09a;
             color: white;
         }
 
@@ -297,7 +298,7 @@
             margin-top: 1rem;
             font-size: 0.9rem;
             font-style: italic;
-            border-left: 3px solid #667eea;
+            border-left: 3px solid #8b9aad;
         }
 
         .companies-interviewed {
@@ -339,13 +340,13 @@
 
         .insight-card {
             background: #f7fafc;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #8b9aad;
             padding: 1.5rem;
             border-radius: 4px;
         }
 
         .insight-card h4 {
-            color: #667eea;
+            color: #8b9aad;
             margin-bottom: 0.75rem;
             font-size: 1.1rem;
         }
@@ -366,7 +367,7 @@
             content: "→";
             position: absolute;
             left: 0;
-            color: #667eea;
+            color: #8b9aad;
             font-weight: 700;
         }
 
@@ -392,7 +393,7 @@
         }
 
         .framework-card h4 {
-            color: #667eea;
+            color: #8b9aad;
             font-size: 1rem;
             margin-bottom: 0.75rem;
         }
@@ -421,13 +422,13 @@
         }
 
         .signal-column.positive {
-            border-color: #48bb78;
-            background: linear-gradient(135deg, #f0fff4 0%, #ffffff 100%);
+            border-color: #9db8a5;
+            background: #f8faf9;
         }
 
         .signal-column.negative {
-            border-color: #f56565;
-            background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
+            border-color: #c9a09a;
+            background: #faf8f8;
         }
 
         .signal-column h4 {
@@ -463,7 +464,7 @@
             content: "✓";
             position: absolute;
             left: 0;
-            color: #48bb78;
+            color: #9db8a5;
             font-weight: 700;
             font-size: 1.2rem;
         }
@@ -472,20 +473,21 @@
             content: "✗";
             position: absolute;
             left: 0;
-            color: #f56565;
+            color: #c9a09a;
             font-weight: 700;
             font-size: 1.2rem;
         }
 
         .quote-box {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: #f1f3f5;
+            color: #495057;
             padding: 2rem;
             border-radius: 12px;
             margin: 2rem 0;
             font-size: 1.1rem;
             font-style: italic;
             position: relative;
+            border-left: 4px solid #adb5bd;
         }
 
         .quote-box:before {
@@ -494,13 +496,14 @@
             position: absolute;
             top: -10px;
             left: 20px;
-            opacity: 0.3;
+            opacity: 0.15;
+            color: #6b7280;
         }
 
         .quote-attribution {
             margin-top: 1rem;
             font-size: 0.9rem;
-            opacity: 0.9;
+            color: #6b7280;
             font-style: normal;
         }
 
@@ -529,7 +532,7 @@
         .market-stat .number {
             font-size: 2rem;
             font-weight: 700;
-            color: #667eea;
+            color: #8b9aad;
             display: block;
             margin-bottom: 0.5rem;
         }
@@ -572,13 +575,13 @@
             width: 16px;
             height: 16px;
             border-radius: 50%;
-            background: #667eea;
+            background: #8b9aad;
             border: 3px solid white;
             box-shadow: 0 0 0 2px #cbd5e0;
         }
 
         .timeline-item h4 {
-            color: #667eea;
+            color: #8b9aad;
             margin-bottom: 0.5rem;
         }
 
@@ -594,15 +597,16 @@
         }
 
         footer {
-            background: #2d3748;
-            color: white;
+            background: #f1f3f5;
+            border-top: 1px solid #e1e4e8;
+            color: #495057;
             padding: 2rem 0;
             text-align: center;
             font-size: 0.9rem;
         }
 
         footer a {
-            color: #90cdf4;
+            color: #6b7280;
             text-decoration: none;
         }
 
@@ -863,19 +867,19 @@
                     <h4 style="margin-top: 1.5rem;">Pain Points Validated</h4>
                     <ul style="list-style: none; padding: 0;">
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #48bb78; font-weight: 700;">✓</span>
+                            <span style="position: absolute; left: 0; color: #9db8a5; font-weight: 700;">✓</span>
                             Multi-chain asset consolidation (30-70 networks)
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #48bb78; font-weight: 700;">✓</span>
+                            <span style="position: absolute; left: 0; color: #9db8a5; font-weight: 700;">✓</span>
                             Unlisted token conversion (no CEX support)
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #48bb78; font-weight: 700;">✓</span>
+                            <span style="position: absolute; left: 0; color: #9db8a5; font-weight: 700;">✓</span>
                             DVT micro-payment consolidation (40+ daily payouts)
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #48bb78; font-weight: 700;">✓</span>
+                            <span style="position: absolute; left: 0; color: #9db8a5; font-weight: 700;">✓</span>
                             Custody integration complexity (Safe, Fireblocks, BitGo)
                         </li>
                     </ul>
@@ -914,26 +918,26 @@
                         </div>
                     </div>
 
-                    <div class="finding-box" style="border-left-color: #f56565;">
+                    <div class="finding-box" style="border-left-color: #c9a09a;">
                         <strong>Core Finding:</strong> "Multi-chain fragmentation isn't a universal OTC problem. 95% of trades use standardized network settlements. Clients typically stick to one non-standard network based on investment thesis."
                     </div>
 
                     <h4 style="margin-top: 1.5rem;">Why PMF Was Invalidated</h4>
                     <ul style="list-style: none; padding: 0;">
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #f56565; font-weight: 700;">✗</span>
+                            <span style="position: absolute; left: 0; color: #c9a09a; font-weight: 700;">✗</span>
                             Network concentration: Solana dominates non-mainnet choice globally; Tron for APAC
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #f56565; font-weight: 700;">✗</span>
+                            <span style="position: absolute; left: 0; color: #c9a09a; font-weight: 700;">✗</span>
                             Existing infrastructure: "Already have existing teams or rails"
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #f56565; font-weight: 700;">✗</span>
+                            <span style="position: absolute; left: 0; color: #c9a09a; font-weight: 700;">✗</span>
                             Low frequency: Client consolidation needs don't occur frequently enough
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #f56565; font-weight: 700;">✗</span>
+                            <span style="position: absolute; left: 0; color: #c9a09a; font-weight: 700;">✗</span>
                             Regulatory constraints: Fund-based entities prohibited from self-custody solutions
                         </li>
                     </ul>
@@ -961,19 +965,19 @@
                     <h4 style="margin-top: 1.5rem;">Pain Points Identified</h4>
                     <ul style="list-style: none; padding: 0;">
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #48bb78; font-weight: 700;">✓</span>
+                            <span style="position: absolute; left: 0; color: #9db8a5; font-weight: 700;">✓</span>
                             Fragmented liquidity across chains
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #48bb78; font-weight: 700;">✓</span>
+                            <span style="position: absolute; left: 0; color: #9db8a5; font-weight: 700;">✓</span>
                             Complex cross-chain interactions requiring multiple bridges
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #48bb78; font-weight: 700;">✓</span>
+                            <span style="position: absolute; left: 0; color: #9db8a5; font-weight: 700;">✓</span>
                             Multiple wallet connections and approval transactions
                         </li>
                         <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
-                            <span style="position: absolute; left: 0; color: #48bb78; font-weight: 700;">✓</span>
+                            <span style="position: absolute; left: 0; color: #9db8a5; font-weight: 700;">✓</span>
                             Operational overhead managing assets across chains for yield optimization
                         </li>
                     </ul>
@@ -1217,7 +1221,7 @@
             <h2>Research Outcomes & Next Steps</h2>
 
             <div class="insights-grid">
-                <div class="insight-card" style="border-left-color: #48bb78;">
+                <div class="insight-card" style="border-left-color: #9db8a5;">
                     <h4>✓ Validated: Validator Segment</h4>
                     <p><strong>Two clear opportunities identified:</strong></p>
                     <ul>
@@ -1227,7 +1231,7 @@
                     <p style="margin-top: 1rem;"><strong>Proposed Next Steps:</strong> Prioritize validators with complex workflows (DVT operators, multi-network staking, emerging chain support)</p>
                 </div>
 
-                <div class="insight-card" style="border-left-color: #f56565;">
+                <div class="insight-card" style="border-left-color: #c9a09a;">
                     <h4>✗ Invalidated: Institutional OTC Desks</h4>
                     <p><strong>Problem doesn't exist universally:</strong></p>
                     <ul>
@@ -1238,7 +1242,7 @@
                     <p style="margin-top: 1rem;"><strong>Pivot Decision:</strong> Deprioritize institutional OTC desks; focus on their end clients (DeFi traders, validators)</p>
                 </div>
 
-                <div class="insight-card" style="border-left-color: #667eea;">
+                <div class="insight-card" style="border-left-color: #8b9aad;">
                     <h4>→ Reframed: Alternative Targets</h4>
                     <p><strong>Secondary opportunities identified:</strong></p>
                     <ul>
