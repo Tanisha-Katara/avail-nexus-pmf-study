@@ -1,5 +1,6 @@
 # Avail Nexus PMF Research Case Study
 
+🔗 **Live Site: [tanisha-katara.github.io/avail-nexus-pmf-study](https://tanisha-katara.github.io/avail-nexus-pmf-study/)**
 A comprehensive portfolio showcase demonstrating systematic product-market fit research methodology for Avail Nexus, an intent-based cross-chain orchestration platform.
 
 ## Overview
